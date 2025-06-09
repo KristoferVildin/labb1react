@@ -1,0 +1,8 @@
+const [questions, setQuestions] = useState('')
+
+  useEffect(() => {
+  fetch('https://opentdb.com/api.php?amount=10&type=boolean')
+  .then((response) => response.json())
+  .then((result) => {
+    setQuestions(result)
+  })}, [])
