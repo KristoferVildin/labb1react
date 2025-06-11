@@ -1,0 +1,31 @@
+1. Webbanrop görs via useEffect och information från en eller flera webbtjänster visas upp (Använd inte Cities-tjänsten; Det går bra att hämta från en lokal JSON-fil istället för en extern webbtjänst) ✅
+
+2. Använd { och } likt hur {{ och }} skulle ha använts i Vue.js ✅
+
+3. Använd { och } likt hur v-bind/: skulle ha använts i Vue.js (key-props (relaterade till map) räknas inte) ❌
+// Dubbelkolla om denna är uppfylld
+
+4. Använd useState likt hur data skulle ha använts i Vue.js ✅
+
+5. Använd && likt hur v-if skulle ha använts i Vue.js ✅
+
+6. Använd conditional/ternery-operatorn (? och :) likt hur v-if och v-else skulle ha använts i Vue.js ✅
+
+7. Använd map och key likt hur v-for och key skulle ha använts i Vue.js ✅
+
+8. Använd events likt hur v-on/@ skulle ha använts i Vue.js ❌
+
+9. En Single Page Application, bestående av minst två webbsidor, ska skapas med React Router eller liknande ❌
+// react router till resultat sida
+
+10. Använd komponenter ❌
+// bryt upp projektet i komponenter från App.jsx
+
+11. Använd props ❌
+
+Omfattningen på projektet ska vara tillräckligt stor utifrån hur länge projektet pågår
+// Stilsätt webbsidan med CSS ❌
+Krav: 6/12
+
+Dagens mål:
+Lagra resultat från frågorna ✅
